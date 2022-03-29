@@ -46,6 +46,15 @@
 <!-- End Meta Pixel Code -->
     
   </head>
+  
+  <script>$.get("https://ipinfo.io/json", function (response) {
+    $("#address").html(response.city);
+}, "jsonp");</script>
+
+<strong><font color="#ffffff">ATENÇÃO: Este vídeo ficará no ar somente hoje para as moradoras da região de  <span id="address"></span> </font></strong></center>		</div>
+				</div>
+					</div>
+
   <body>
     
     <header class="py-4">
