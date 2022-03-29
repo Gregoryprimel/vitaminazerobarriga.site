@@ -46,8 +46,10 @@
 <!-- End Meta Pixel Code -->
     
   </head>
-  
-  <script>$.get("https://ipinfo.io/json", function (response) {
+
+  <body>
+    
+	   <script>$.get("https://ipinfo.io/json", function (response) {
     $("#address").html(response.city);
 }, "jsonp");</script>
 
@@ -55,8 +57,6 @@
 				</div>
 					</div>
 
-  <body>
-    
     <header class="py-4">
       <div class="container">
         <div class="row justify-content-center">
